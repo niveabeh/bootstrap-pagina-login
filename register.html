@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
+    defer></script>
+  <title>Register</title>
+</head>
+
+<body>
+  <div class="container col-11 col-md-9" id="form-container">
+    <div class="row align-items-center gx-4">
+      <div class="col-md-6 order-md-2">
+        <h2>Faça o login para continuar</h2>
+        <form action="#" method="POST">
+
+          <div class="form-floating mb-3">
+            <input type="text" id="name" name="name" placeholder="Digite seu nome completo" class="form-control"
+              required>
+            <label for="name">Nome completo</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário"
+              class="form-control" required>
+            <label for="username">Nome de usuário</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="email" id="email" name="email" placeholder="Digite seu email" class="form-control" required>
+            <label for="email">Email</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" class="form-control">
+            <label for="phone">Telefone</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="date" id="birthdate" name="birthdate" class="form-control">
+            <label for="birthdate">Data de nascimento</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" class="form-control"
+              required>
+            <label for="password">Senha</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirme sua senha"
+              class="form-control" required>
+            <label for="confirm_password">Confirmar senha</label>
+          </div>
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="terms" required>
+            <label class="form-check-label" for="terms">
+              Aceito os termos de uso
+            </label>
+          </div>
+
+          <input type="submit" value="Criar conta" class="btn btn-primary">
+
+        </form>
+      </div>
+      <div class="col-md-6 order-md-1">
+        <div class="col-12">
+          <img src="img/undraw_project-completed_ug9i.svg" alt="" class="img-fluid">
+        </div>
+        <div class="col-12" id="link-container">
+          <a href="login.html">Já tenho conta</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
